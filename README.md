@@ -1,7 +1,25 @@
-cd /home/ubuntu/vampire_survivor_web
+# 🎮 Vampire Survivor Web Edition
 
-cd /home/ubuntu/vampire_survivor_web
+뱀파이어 서바이벌 스타일의 웹 게임입니다. HTML5 Canvas와 JavaScript를 사용하여 만들어졌습니다.
 
-git remote add origin https://github.com/Coffeebin-coder/vampire-survivor-web.git/vampire-survivor-web.git
+## 🎯 게임 기능
 
-git branch -M main
+- **자동 공격 시스템**: 근처의 적에게 자동으로 투사체 발사
+- **웨이브 시스템**: 시간이 지날수록 난이도 증가
+- **레벨업 시스템**: 경험치를 모아 레벨업
+- **파티클 이펙트**: 적 처치 시 시각적 피드백
+- **캐릭터 선택**: 전사, 마법사, 궁수 중 선택 가능
+
+## 🎮 조작법
+
+- **이동**: 화살표 키 또는 WASD
+- **공격**: 자동
+- **일시정지**: ESC 키
+
+## 🚀 로컬 실행
+
+### 설치
+
+```bash
+# 의존성 설치
+pnpm install
